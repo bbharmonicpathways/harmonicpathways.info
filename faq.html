@@ -1,214 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FAQ | BB's Harmonic Pathways</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | BB's Harmonic Pathways</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="navbar">
-    <div class="nav-brand">BB's Harmonic Pathways</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="faq.html" class="active">FAQ</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
-    </ul>
-    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-  </nav>
-
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="page-hero-overlay"></div>
-    <div class="page-hero-content">
-      <h1>Frequently Asked Questions</h1>
-      <p>Everything you need to know before your first session</p>
-    </div>
-  </section>
-
-  <!-- FAQ SECTION -->
-  <section class="faq-section section-padding">
-    <div class="container">
-      <h2>Common Questions</h2>
-      <p class="section-subtitle">If you don't find your answer here, please don't hesitate to reach out</p>
-
-      <div class="faq-accordion">
-
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            What is Healing Touch and how does it work?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Healing Touch is a gentle, non-invasive energy therapy that works with the human biofield — the energy field that surrounds and interpenetrates the physical body. Practitioners use light touch or near-body hand movements to clear, balance, and energize the energy field, supporting the body's natural healing process. It is based on the understanding that disruptions in the energy field can contribute to physical, emotional, and spiritual imbalance.</p>
-          </div>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">BB's Harmonic Pathways</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+    </nav>
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            Is energy healing safe? Are there any side effects?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Energy healing modalities are gentle, non-invasive, and considered very safe for most people. They complement — rather than replace — conventional medical care. Some clients experience a brief period of emotional release or fatigue following a session as part of the natural healing process. Staying hydrated and resting after a session is recommended. Always inform Brenda of any medical conditions before your session.</p>
-          </div>
+    <!-- PAGE HEADER BANNER -->
+    <section class="page-header faq-header">
+        <div class="header-content">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our healing services</p>
         </div>
+    </section>
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            Do I need to believe in energy healing for it to work?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>No belief is required. Many clients come to their first session with healthy skepticism and still experience meaningful results. The healing process works through the body's own energy systems, which function regardless of belief. An open mind and a willingness to relax are all that is needed.</p>
-          </div>
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+        <div class="container">
+
+            <div class="faq-intro">
+                <p>We understand you may have questions about energy healing and what to expect. Below are answers to the most common questions we receive. If you don't find what you're looking for, please don't hesitate to <a href="contact.html">reach out to us</a>.</p>
+            </div>
+
+            <!-- GENERAL QUESTIONS -->
+            <div class="faq-category">
+                <h2>✨ General Questions</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What is energy healing?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Energy healing is a holistic practice that works with the body's natural energy systems to promote balance, relaxation, and well-being. Practitioners use various techniques to support the flow of energy throughout the body, helping to reduce stress, ease discomfort, and encourage the body's natural healing processes. Energy healing is considered a complementary practice and works alongside conventional medical care.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Is energy healing safe?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, energy healing is gentle and non-invasive. It is safe for people of all ages, including children and the elderly. Sessions are deeply relaxing and carry no known risks. Energy healing is not a substitute for medical treatment, but it can be a wonderful complement to conventional care. Always consult your healthcare provider for medical concerns.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do I need to believe in energy healing for it to work?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No prior belief is required. Many clients come with an open but skeptical mind and still experience profound relaxation and benefit. We simply ask that you come with an open heart and a willingness to receive. The healing process is unique to each individual, and your experience will be your own.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How many sessions will I need?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Every person's journey is unique. Some clients feel significant shifts after just one session, while others benefit from a series of sessions over time. We recommend starting with an initial session and then discussing a personalized plan based on your goals and how you respond. Many clients choose to continue sessions as part of their ongoing wellness routine.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- HEALING TOUCH QUESTIONS -->
+            <div class="faq-category">
+                <h2>🤲 Healing Touch</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What is Healing Touch and what can I expect during a session?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Healing Touch is a gentle, heart-centered energy therapy that uses light touch or near-body techniques to support the body's natural healing process. During a session, you will lie fully clothed on a comfortable table while the practitioner works with your energy field. Sessions typically last 45-60 minutes and most clients feel deeply relaxed, peaceful, and refreshed afterward.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Is Healing Touch the same as Reiki?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>While both Healing Touch and Reiki are energy healing modalities, they are distinct practices. Healing Touch is a nurse-developed, evidence-based program with a structured curriculum and certification process. It uses a variety of specific techniques and has been widely studied in clinical settings. Reiki is a Japanese technique with its own lineage and methods. Both are valuable and complementary practices.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What should I wear to a Healing Touch session?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Please wear comfortable, loose-fitting clothing. You will remain fully clothed throughout the session. We recommend avoiding heavy perfumes or fragrances out of consideration for sensitivities. Remove any heavy jewelry or accessories if you prefer, though this is not required.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SOUND HEALING QUESTIONS -->
+            <div class="faq-category">
+                <h2>🎵 Sound Healing</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What instruments are used in Sound Healing?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sound healing sessions at BB's Harmonic Pathways may include Tibetan singing bowls, crystal singing bowls, tuning forks, chimes, and other resonant instruments. Each instrument produces unique frequencies and vibrations that interact with the body's energy field to promote deep relaxation and balance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Can Sound Healing help with anxiety and stress?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Many clients find sound healing to be profoundly effective for reducing anxiety and stress. The vibrations and frequencies produced during a session can help calm the nervous system, slow brainwave activity, and induce a deep meditative state. Regular sessions may support long-term stress management and emotional well-being.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CRYSTAL HEALING QUESTIONS -->
+            <div class="faq-category">
+                <h2>💎 Crystal Healing</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How do crystals work in healing?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Crystals are believed to hold unique vibrational frequencies that can interact with the body's energy field. Different crystals are associated with different properties and intentions. During a crystal healing session, stones are carefully placed on or around the body to support energetic balance, release blockages, and promote a sense of harmony and well-being.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do I need to have any special knowledge about crystals?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely not! No prior knowledge of crystals is needed. Your practitioner will guide you through the entire process, explain which crystals are being used and why, and answer any questions you may have. All you need to do is relax and receive.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- LABYRINTH QUESTIONS -->
+            <div class="faq-category">
+                <h2>🌀 Walking the Labyrinth</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What is a labyrinth and how is it different from a maze?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A labyrinth is a single, winding path that leads to a center and back out again. Unlike a maze, there are no dead ends or wrong turns — you simply follow the path. The labyrinth is an ancient symbol found across many cultures and traditions. Walking it is a moving meditation that invites reflection, clarity, and inner peace.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What should I focus on while walking the labyrinth?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>There is no right or wrong way to walk the labyrinth. Some people come with a specific intention or question in mind. Others simply walk and allow whatever arises to surface naturally. You may choose to walk slowly and mindfully, pause at the center for reflection, or simply enjoy the meditative rhythm of the path. Trust your own inner guidance.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOOKING QUESTIONS -->
+            <div class="faq-category">
+                <h2>📅 Booking & Sessions</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        How do I book a session?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Booking is easy! Simply visit our <a href="booking.html">Booking page</a> and click the button to access our online scheduling calendar. You can choose your preferred service, date, and time. If you have questions before booking, please feel free to <a href="contact.html">contact us</a> and we will be happy to help.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Do you offer virtual sessions?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We offer virtual sessions for clients who are unable to visit in person. Energy healing is not limited by physical distance, and many clients experience equally profound results through virtual sessions. Virtual sessions are conducted via video call and follow the same process as in-person sessions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        What is your cancellation policy?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We kindly ask that you provide at least 24 hours notice if you need to cancel or reschedule your appointment. This allows us to offer your time slot to another client. Late cancellations or no-shows may be subject to a cancellation fee. We understand that life happens and will always do our best to accommodate your needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Where are you located?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>BB's Harmonic Pathways is located in Mooresville, NC. We also offer virtual sessions for clients anywhere. Specific location details will be provided upon booking confirmation. If you have questions about finding us, please don't hesitate to reach out.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- STILL HAVE QUESTIONS -->
+            <div class="faq-cta">
+                <h2>Still Have Questions? 💜</h2>
+                <p>We'd love to hear from you. Reach out and we'll be happy to help.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">Contact Us</a>
+                    <a href="booking.html" class="btn-secondary">Book a Session</a>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            What should I expect during my first session?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Your first session will begin with a brief consultation where Brenda will ask about your health history, intentions, and any areas of concern. You will then lie fully clothed on a comfortable treatment table. Brenda will work gently with your energy field using light touch or near-body techniques. Sessions typically last 60–90 minutes. Most clients feel deeply relaxed during and after the session. Some notice warmth, tingling, emotional release, or vivid imagery.</p>
-          </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>BB's Harmonic Pathways</h3>
+                <p>Healing Touch · Sound Healing · Crystal Healing</p>
+                <p>Walking the Labyrinth · Sacred Geometry</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.html">Book a Session</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Brenda Burk MSN, HTCP</p>
+                <p>Mooresville, NC | Virtual Sessions Available</p>
+                <p><a href="tel:7049290453">704-929-0453</a></p>
+                <p><a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+            </div>
         </div>
-
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            How should I prepare for my session?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Wear comfortable, loose-fitting clothing. Avoid heavy meals, alcohol, and caffeine for a few hours before your session. Come with an open intention — you may wish to reflect on what you are seeking from the session. Arrive a few minutes early to settle in and relax. After your session, drink plenty of water and allow yourself time to rest and integrate.</p>
-          </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BB's Harmonic Pathways. All rights reserved.</p>
         </div>
+    </footer>
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            Can energy healing be done remotely or online?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Yes! Distance healing sessions are available for clients who are unable to attend in person. Energy is not limited by physical proximity, and many clients find distance sessions equally effective. Remote sessions are conducted via phone or video call, with Brenda working with your energy field from a distance. Please contact Brenda to arrange a distance session.</p>
-          </div>
-        </div>
+    <!-- FAQ ACCORDION SCRIPT -->
+    <script>
+        function toggleFaq(button) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('.faq-icon');
+            const isOpen = answer.classList.contains('open');
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            How many sessions will I need?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>This varies greatly depending on the individual and their intentions. Some clients experience significant shifts in a single session, while others benefit from a series of sessions for deeper or more chronic conditions. Brenda will discuss your individual needs and make recommendations based on your experience. Many clients choose to incorporate regular sessions into their ongoing wellness practice.</p>
-          </div>
-        </div>
+            // Close all open answers
+            document.querySelectorAll('.faq-answer.open').forEach(openAnswer => {
+                openAnswer.classList.remove('open');
+                openAnswer.previousElementSibling.querySelector('.faq-icon').textContent = '+';
+            });
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            What is the difference between a labyrinth and a maze?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>A maze is a puzzle designed to confuse, with multiple paths, dead ends, and choices. A labyrinth has a single, winding path that leads directly to the center and back out again — there are no dead ends or wrong turns. Walking the labyrinth is an act of trust and surrender, not problem-solving. It is a contemplative practice, not a challenge.</p>
-          </div>
-        </div>
+            // Open clicked answer if it was closed
+            if (!isOpen) {
+                answer.classList.add('open');
+                icon.textContent = '−';
+            }
+        }
 
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            Is energy healing a substitute for medical care?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>No. Energy healing modalities are complementary therapies that work alongside conventional medical care, not in place of it. Brenda's background as a registered nurse ensures that she always supports clients in maintaining their relationship with their healthcare providers. If you have a medical condition, please continue to follow your doctor's recommendations while exploring energy healing as a supportive complement.</p>
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question" onclick="toggleFAQ(this)">
-            How do I book a session?
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>You can book a session directly through our online booking page, or by calling or emailing Brenda directly. Visit our <a href="booking.html">Booking page</a> to view available times and reserve your session. You are also welcome to <a href="contact.html">contact us</a> with any questions before booking.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- STILL HAVE QUESTIONS -->
-  <section class="cta-section section-padding bg-light">
-    <div class="container">
-      <h2>Still Have Questions?</h2>
-      <p>Brenda is happy to answer any questions you have before your first session. Reach out anytime.</p>
-      <a href="contact.html" class="btn-primary">Contact Brenda</a>
-      <a href="booking.html" class="btn-secondary">Book a Session</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <h3>BB's Harmonic Pathways</h3>
-        <p>Healing Touch • Sound Healing • Crystal Healing</p>
-        <p>Labyrinth • Sacred Geometry</p>
-      </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="booking.html">Book a Session</a></li>
-        </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
-        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
-        <p>🌐 harmonicpathways.info</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
-    </div>
-  </footer>
-
-  <script>
-    function toggleMenu() {
-      const nav = document.querySelector('.nav-links');
-      nav.classList.toggle('open');
-    }
-    function toggleFAQ(btn) {
-      const item = btn.parentElement;
-      const answer = item.querySelector('.faq-answer');
-      const icon = btn.querySelector('.faq-icon');
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => {
-        i.classList.remove('open');
-        i.querySelector('.faq-answer').style.maxHeight = null;
-        i.querySelector('.faq-icon').textContent = '+';
-      });
-      if (!isOpen) {
-        item.classList.add('open');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-        icon.textContent = '−';
-      }
-    }
-  </script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
 
 </body>
 </html>
