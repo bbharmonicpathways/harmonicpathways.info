@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials | BB's Harmonic Pathways</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-brand">BB's Harmonic Pathways</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html" class="active">Testimonials</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Client Testimonials</h1>
+      <p>Real experiences from those who have walked the harmonic pathway</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS GRID -->
+  <section class="testimonials-full section-padding">
+    <div class="container">
+      <h2>What Clients Are Saying</h2>
+      <p class="section-subtitle">Each session is a unique and sacred journey — here are some of the stories shared</p>
+
+      <div class="testimonials-grid large">
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">S.M.</div>
+          <p>"My session with Brenda was one of the most peaceful experiences of my life. I left feeling lighter, clearer, and deeply at ease. I cannot recommend her enough."</p>
+          <span class="testimonial-name">— S.M., Charlotte NC</span>
+          <span class="testimonial-service">Healing Touch</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">J.R.</div>
+          <p>"The sound healing session helped me release tension I didn't even know I was holding. Brenda has a beautiful gift and creates such a safe, sacred space."</p>
+          <span class="testimonial-name">— J.R., Gastonia NC</span>
+          <span class="testimonial-service">Sound Healing</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">L.T.</div>
+          <p>"Walking the labyrinth with Brenda's guidance was transformative. I came in with so much mental noise and left with profound stillness and clarity."</p>
+          <span class="testimonial-name">— L.T., Belmont NC</span>
+          <span class="testimonial-service">Walking the Labyrinth</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">M.W.</div>
+          <p>"I was skeptical at first, but the crystal healing session completely changed my perspective. I felt a warmth and energy I had never experienced before. Brenda's knowledge and presence are extraordinary."</p>
+          <span class="testimonial-name">— M.W., Concord NC</span>
+          <span class="testimonial-service">Crystal Healing</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">P.H.</div>
+          <p>"Brenda has a rare combination of clinical expertise and spiritual depth. Her Healing Touch sessions have been an essential part of my recovery journey. I am deeply grateful."</p>
+          <span class="testimonial-name">— P.H., Mooresville NC</span>
+          <span class="testimonial-service">Healing Touch</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">D.C.</div>
+          <p>"The Sacred Geometry session opened my eyes to patterns I had never noticed before. Brenda is a gifted teacher and healer. This work is truly profound."</p>
+          <span class="testimonial-name">— D.C., Huntersville NC</span>
+          <span class="testimonial-service">Sacred Geometry</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">R.A.</div>
+          <p>"I have been seeing Brenda monthly for over a year. Each session brings new insights and a deep sense of peace. Her practice is a true sanctuary."</p>
+          <span class="testimonial-name">— R.A., Charlotte NC</span>
+          <span class="testimonial-service">Healing Touch &amp; Sound Healing</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">K.B.</div>
+          <p>"After my mother passed, I was lost in grief. The labyrinth walk with Brenda helped me find my footing again. It was exactly what my soul needed."</p>
+          <span class="testimonial-name">— K.B., Gastonia NC</span>
+          <span class="testimonial-service">Walking the Labyrinth</span>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">T.N.</div>
+          <p>"Brenda combines her nursing background with such beautiful healing wisdom. I feel completely safe and cared for in her sessions. Truly transformative work."</p>
+          <span class="testimonial-name">— T.N., Matthews NC</span>
+          <span class="testimonial-service">Crystal Healing</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE YOUR STORY -->
+  <section class="share-story section-padding bg-light">
+    <div class="container">
+      <h2>Share Your Experience</h2>
+      <p>Has a session with Brenda touched your life? We would be honored to hear your story.</p>
+      <a href="contact.html" class="btn-primary">Share Your Testimonial</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section section-padding">
+    <div class="container">
+      <h2>Begin Your Own Journey</h2>
+      <p>These stories could be yours. Take the first step toward healing and wholeness today.</p>
+      <a href="booking.html" class="btn-primary">Book Your Session</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>BB's Harmonic Pathways</h3>
+        <p>Healing Touch • Sound Healing • Crystal Healing</p>
+        <p>Labyrinth • Sacred Geometry</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Session</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
+        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+        <p>🌐 harmonicpathways.info</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

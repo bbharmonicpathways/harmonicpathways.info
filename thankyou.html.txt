@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You | BB's Harmonic Pathways</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-brand">BB's Harmonic Pathways</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- THANK YOU CONTENT -->
+  <section class="thankyou-section section-padding">
+    <div class="container thankyou-content">
+      <div class="thankyou-icon">✨</div>
+      <h1>Thank You</h1>
+      <p class="thankyou-lead">Your message has been received with gratitude.</p>
+      <p>Brenda will be in touch with you within 24–48 hours. In the meantime, feel free to explore the site or visit the booking page to reserve your session.</p>
+      <div class="thankyou-buttons">
+        <a href="index.html" class="btn-primary">Return Home</a>
+        <a href="booking.html" class="btn-secondary">Book a Session</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>BB's Harmonic Pathways</h3>
+        <p>Healing Touch • Sound Healing • Crystal Healing</p>
+        <p>Labyrinth • Sacred Geometry</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Session</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
+        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+        <p>🌐 harmonicpathways.info</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

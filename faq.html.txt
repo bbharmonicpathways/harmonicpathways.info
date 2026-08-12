@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ | BB's Harmonic Pathways</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-brand">BB's Harmonic Pathways</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="faq.html" class="active">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Frequently Asked Questions</h1>
+      <p>Everything you need to know before your first session</p>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-section section-padding">
+    <div class="container">
+      <h2>Common Questions</h2>
+      <p class="section-subtitle">If you don't find your answer here, please don't hesitate to reach out</p>
+
+      <div class="faq-accordion">
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            What is Healing Touch and how does it work?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Healing Touch is a gentle, non-invasive energy therapy that works with the human biofield — the energy field that surrounds and interpenetrates the physical body. Practitioners use light touch or near-body hand movements to clear, balance, and energize the energy field, supporting the body's natural healing process. It is based on the understanding that disruptions in the energy field can contribute to physical, emotional, and spiritual imbalance.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            Is energy healing safe? Are there any side effects?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Energy healing modalities are gentle, non-invasive, and considered very safe for most people. They complement — rather than replace — conventional medical care. Some clients experience a brief period of emotional release or fatigue following a session as part of the natural healing process. Staying hydrated and resting after a session is recommended. Always inform Brenda of any medical conditions before your session.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            Do I need to believe in energy healing for it to work?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>No belief is required. Many clients come to their first session with healthy skepticism and still experience meaningful results. The healing process works through the body's own energy systems, which function regardless of belief. An open mind and a willingness to relax are all that is needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            What should I expect during my first session?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Your first session will begin with a brief consultation where Brenda will ask about your health history, intentions, and any areas of concern. You will then lie fully clothed on a comfortable treatment table. Brenda will work gently with your energy field using light touch or near-body techniques. Sessions typically last 60–90 minutes. Most clients feel deeply relaxed during and after the session. Some notice warmth, tingling, emotional release, or vivid imagery.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            How should I prepare for my session?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Wear comfortable, loose-fitting clothing. Avoid heavy meals, alcohol, and caffeine for a few hours before your session. Come with an open intention — you may wish to reflect on what you are seeking from the session. Arrive a few minutes early to settle in and relax. After your session, drink plenty of water and allow yourself time to rest and integrate.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            Can energy healing be done remotely or online?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Distance healing sessions are available for clients who are unable to attend in person. Energy is not limited by physical proximity, and many clients find distance sessions equally effective. Remote sessions are conducted via phone or video call, with Brenda working with your energy field from a distance. Please contact Brenda to arrange a distance session.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            How many sessions will I need?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>This varies greatly depending on the individual and their intentions. Some clients experience significant shifts in a single session, while others benefit from a series of sessions for deeper or more chronic conditions. Brenda will discuss your individual needs and make recommendations based on your experience. Many clients choose to incorporate regular sessions into their ongoing wellness practice.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            What is the difference between a labyrinth and a maze?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>A maze is a puzzle designed to confuse, with multiple paths, dead ends, and choices. A labyrinth has a single, winding path that leads directly to the center and back out again — there are no dead ends or wrong turns. Walking the labyrinth is an act of trust and surrender, not problem-solving. It is a contemplative practice, not a challenge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            Is energy healing a substitute for medical care?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>No. Energy healing modalities are complementary therapies that work alongside conventional medical care, not in place of it. Brenda's background as a registered nurse ensures that she always supports clients in maintaining their relationship with their healthcare providers. If you have a medical condition, please continue to follow your doctor's recommendations while exploring energy healing as a supportive complement.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            How do I book a session?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>You can book a session directly through our online booking page, or by calling or emailing Brenda directly. Visit our <a href="booking.html">Booking page</a> to view available times and reserve your session. You are also welcome to <a href="contact.html">contact us</a> with any questions before booking.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STILL HAVE QUESTIONS -->
+  <section class="cta-section section-padding bg-light">
+    <div class="container">
+      <h2>Still Have Questions?</h2>
+      <p>Brenda is happy to answer any questions you have before your first session. Reach out anytime.</p>
+      <a href="contact.html" class="btn-primary">Contact Brenda</a>
+      <a href="booking.html" class="btn-secondary">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>BB's Harmonic Pathways</h3>
+        <p>Healing Touch • Sound Healing • Crystal Healing</p>
+        <p>Labyrinth • Sacred Geometry</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Session</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
+        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+        <p>🌐 harmonicpathways.info</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('.nav-links');
+      nav.classList.toggle('open');
+    }
+    function toggleFAQ(btn) {
+      const item = btn.parentElement;
+      const answer = item.querySelector('.faq-answer');
+      const icon = btn.querySelector('.faq-icon');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-answer').style.maxHeight = null;
+        i.querySelector('.faq-icon').textContent = '+';
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        icon.textContent = '−';
+      }
+    }
+  </script>
+
+</body>
+</html>

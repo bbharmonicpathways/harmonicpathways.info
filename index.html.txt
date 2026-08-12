@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB's Harmonic Pathways | Healing Touch & Energy Healing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="index.html">BB's Harmonic Pathways</a>
+        </div>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="booking.html" class="nav-book-btn">Book a Session</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-tagline">Welcome to</p>
+        <h1>BB's Harmonic Pathways</h1>
+        <p class="hero-subtitle">Healing Touch · Sound Healing · Crystal Healing · Sacred Geometry · Labyrinth</p>
+        <p class="hero-description">A gentle space for restoration, balance, and deep inner peace</p>
+        <div class="hero-buttons">
+            <a href="booking.html" class="btn btn-primary">Book a Session</a>
+            <a href="services.html" class="btn btn-secondary">Explore Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- WELCOME SECTION -->
+<section class="welcome-section">
+    <div class="container">
+        <div class="welcome-grid">
+            <div class="welcome-text">
+                <span class="section-label">A Place of Healing</span>
+                <h2>You Are Welcome Here</h2>
+                <p>At BB's Harmonic Pathways, we believe that healing is a sacred journey — one that honors the whole person: body, mind, and spirit. Whether you are seeking relief from stress, deeper spiritual connection, or simply a moment of stillness in a busy world, you have found the right place.</p>
+                <p>Brenda Burk, MSN, HTCP brings years of nursing expertise and certified energy healing practice to create a safe, nurturing environment where your healing can unfold naturally.</p>
+                <a href="about.html" class="btn btn-outline">Meet Brenda</a>
+            </div>
+            <div class="welcome-image">
+                <div class="image-frame">
+                    <img src="assets/images/welcome-nature.jpg" alt="Peaceful nature scene" onerror="this.parentElement.classList.add('image-placeholder')">
+                    <div class="image-placeholder-text">🌿 Peaceful Nature</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section class="services-preview">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">What We Offer</span>
+            <h2>Healing Modalities</h2>
+            <p>Each pathway is a doorway to greater wholeness and peace</p>
+        </div>
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">🤲</div>
+                <h3>Healing Touch</h3>
+                <p>A gentle, heart-centered energy therapy that supports the body's natural ability to heal. Using light touch or near-body techniques to balance your energy field.</p>
+                <a href="services.html#healing-touch" class="card-link">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎵</div>
+                <h3>Sound Healing</h3>
+                <p>Experience the therapeutic resonance of singing bowls, tuning forks, and sacred instruments that guide your body and mind into deep states of relaxation and renewal.</p>
+                <a href="services.html#sound-healing" class="card-link">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💎</div>
+                <h3>Crystal Healing</h3>
+                <p>Harness the natural vibrational energy of crystals and gemstones to support emotional balance, clarity of mind, and energetic alignment.</p>
+                <a href="services.html#crystal-healing" class="card-link">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🌀</div>
+                <h3>Walking the Labyrinth</h3>
+                <p>A moving meditation and ancient spiritual practice. Walk the sacred path inward and outward, releasing what no longer serves and receiving insight and clarity.</p>
+                <a href="services.html#labyrinth" class="card-link">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Sacred Geometry</h3>
+                <p>Explore the universal patterns and divine proportions that underlie all creation. Used in healing sessions to align your energy with the harmonics of nature.</p>
+                <a href="services.html#sacred-geometry" class="card-link">Learn More →</a>
+            </div>
+
+        </div>
+        <div class="section-footer">
+            <a href="services.html" class="btn btn-primary">View All Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section class="about-preview">
+    <div class="container">
+        <div class="about-preview-grid">
+            <div class="about-preview-image">
+                <div class="image-frame circular">
+                    <img src="assets/images/profile.jpg" alt="Brenda Burk" onerror="this.parentElement.classList.add('image-placeholder')">
+                    <div class="image-placeholder-text">👤 Brenda Burk</div>
+                </div>
+            </div>
+            <div class="about-preview-text">
+                <span class="section-label">Your Practitioner</span>
+                <h2>Brenda Burk, MSN, HTCP</h2>
+                <p class="about-credentials">Healing Touch Certified Practitioner · Master of Science in Nursing</p>
+                <p>With a foundation in both traditional nursing and holistic energy medicine, Brenda brings a uniquely integrated approach to healing. Her compassionate presence and deep knowledge create a space where true transformation can occur.</p>
+                <blockquote class="mini-quote">"Healing is not something I do to you — it is something we invite together."</blockquote>
+                <a href="about.html" class="btn btn-outline">Read Full Bio</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS PREVIEW -->
+<section class="testimonials-preview">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Client Experiences</span>
+            <h2>Words of Healing</h2>
+            <p>Real experiences from those who have walked this path</p>
+        </div>
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">S.M.</div>
+                <p class="testimonial-text">"After just one Healing Touch session with Brenda, I felt a peace I hadn't experienced in years. She has a gift for creating sacred space."</p>
+                <p class="testimonial-author">— S.M., Charlotte, NC</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">R.T.</div>
+                <p class="testimonial-text">"The sound healing session was transformative. I came in anxious and left feeling completely restored. Brenda's knowledge and warmth are unmatched."</p>
+                <p class="testimonial-author">— R.T., Gastonia, NC</p>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">L.K.</div>
+                <p class="testimonial-text">"Walking the labyrinth with Brenda's guidance was one of the most meaningful spiritual experiences of my life. I found clarity I had been seeking for months."</p>
+                <p class="testimonial-author">— L.K., Belmont, NC</p>
+            </div>
+
+        </div>
+        <div class="section-footer">
+            <a href="testimonials.html" class="btn btn-outline">Read More Testimonials</a>
+        </div>
+    </div>
+</section>
+
+<!-- NATURE IMAGE BREAK -->
+<section class="nature-break">
+    <div class="nature-break-overlay"></div>
+    <div class="nature-break-content">
+        <p class="nature-quote">"In every walk with nature, one receives far more than he seeks."</p>
+        <p class="nature-quote-author">— John Muir</p>
+    </div>
+</section>
+
+<!-- BOOKING CTA -->
+<section class="booking-cta">
+    <div class="container">
+        <div class="cta-content">
+            <span class="section-label">Begin Your Journey</span>
+            <h2>Ready to Experience Healing?</h2>
+            <p>Take the first step toward balance, peace, and wholeness. Sessions are available by appointment.</p>
+            <div class="cta-buttons">
+                <a href="booking.html" class="btn btn-primary">Book a Session</a>
+                <a href="contact.html" class="btn btn-outline">Ask a Question</a>
+            </div>
+            <div class="cta-contact">
+                <p>📞 <a href="tel:7049290453">704-929-0453</a> &nbsp;|&nbsp; ✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>BB's Harmonic Pathways</h3>
+                <p>A sacred space for healing, balance, and transformation through energy medicine and holistic practices.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Brenda</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="booking.html">Book a Session</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h4>Healing Modalities</h4>
+                <ul>
+                    <li>Healing Touch</li>
+                    <li>Sound Healing</li>
+                    <li>Crystal Healing</li>
+                    <li>Walking the Labyrinth</li>
+                    <li>Sacred Geometry</li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
+                <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+                <p>🌐 harmonicpathways.info</p>
+                <p class="footer-credentials">Brenda Burk, MSN, HTCP<br>Healing Touch Certified Practitioner</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk, MSN, HTCP | All Rights Reserved</p>
+            <p class="footer-disclaimer">Healing Touch and energy therapies are complementary practices and do not replace conventional medical care.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- MOBILE NAV SCRIPT -->
+<script>
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
