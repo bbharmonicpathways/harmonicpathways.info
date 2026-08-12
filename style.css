@@ -1045,4 +1045,185 @@ img {
   .testimonials-grid {
     grid-template-columns: 1fr;
   }
+
+/* ========================================
+   FAQ BANNER
+======================================== */
+.faq-header {
+    background: linear-gradient(
+        rgba(42, 74, 132, 0.60),
+        rgba(107, 90, 200, 0.60)
+    ),
+    url('assets/images/FAQ.jpg')
+    center/cover no-repeat;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+.faq-header h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.faq-header p {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,0.90);
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+/* ========================================
+   TESTIMONIALS BANNER
+======================================== */
+.testimonials-header {
+    background: linear-gradient(
+        rgba(42, 74, 132, 0.60),
+        rgba(107, 90, 200, 0.60)
+    ),
+    url('assets/images/testamonial.jpg')
+    center/cover no-repeat;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+.testimonials-header h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.testimonials-header p {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,0.90);
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+/* ========================================
+   TESTIMONIALS INTRO
+======================================== */
+.testimonials-intro {
+    background: #f9f7ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials-intro p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.9;
+    font-style: italic;
+}
+
+/* ========================================
+   TESTIMONIALS GRID
+======================================== */
+.testimonials-section {
+    padding: 70px 20px;
+    background: white;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: #f9f7ff;
+    border-radius: 16px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 20px rgba(107, 90, 200, 0.10);
+    border-left: 4px solid #a78bfa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(107, 90, 200, 0.18);
+}
+
+.testimonial-stars {
+    color: #f4c542;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.85;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.author-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a78bfa, #6b5ac8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    letter-spacing: 1px;
+}
+
+.author-info strong {
+    display: block;
+    color: #3d2c8d;
+    font-size: 0.95rem;
+}
+
+.author-info span {
+    color: #888;
+    font-size: 0.85rem;
+}
+
+/* ========================================
+   SHARE YOUR EXPERIENCE
+======================================== */
+.share-experience {
+    background: linear-gradient(135deg, #f0ebff, #e8f4fd);
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.share-experience h2 {
+    font-size: 2.2rem;
+    color: #3d2c8d;
+    margin-bottom: 20px;
+}
+
+.share-experience p {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.85;
 }
