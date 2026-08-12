@@ -1,161 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact | BB's Harmonic Pathways</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | BB's Harmonic Pathways</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="navbar">
-    <div class="nav-brand">BB's Harmonic Pathways</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
-    </ul>
-    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-  </nav>
-
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="page-hero-overlay"></div>
-    <div class="page-hero-content">
-      <h1>Get in Touch</h1>
-      <p>We would love to hear from you</p>
-    </div>
-  </section>
-
-  <!-- CONTACT SECTION -->
-  <section class="contact-section section-padding">
-    <div class="container contact-flex">
-
-      <div class="contact-info">
-        <h2>Contact Brenda</h2>
-        <p>Whether you have questions about a service, want to share your experience, or are ready to book your first session — Brenda is here and would love to connect with you.</p>
-
-        <div class="contact-detail">
-          <span class="contact-icon">📞</span>
-          <div>
-            <h4>Phone</h4>
-            <p><a href="tel:7049290453">704-929-0453</a></p>
-          </div>
-        </div>
-
-        <div class="contact-detail">
-          <span class="contact-icon">✉️</span>
-          <div>
-            <h4>Email</h4>
-            <p><a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
-          </div>
-        </div>
-
-        <div class="contact-detail">
-          <span class="contact-icon">🌐</span>
-          <div>
-            <h4>Website</h4>
-            <p>harmonicpathways.info</p>
-          </div>
-        </div>
-
-        <div class="contact-detail">
-          <span class="contact-icon">🕐</span>
-          <div>
-            <h4>Session Hours</h4>
-            <p>By appointment only</p>
-            <p>Please use the booking page or contact Brenda directly to schedule</p>
-          </div>
-        </div>
-
-        <div class="contact-note">
-          <p>✨ <em>All inquiries are responded to within 24–48 hours. For urgent matters, please call directly.</em></p>
-        </div>
-      </div>
-
-      <div class="contact-form-wrap">
-        <h2>Send a Message</h2>
-        <form action="https://formspree.io/f/mkjwbrja" method="POST" class="contact-form">
-        <input type="hidden" name="_next" value="https://bbharmonicpathways.github.io/harmonicpathways.info/thankyou.html">
-          <div class="form-group">
-            <label for="name">Your Name *</label>
-            <input type="text" id="name" name="name" required placeholder="Your full name"/>
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address *</label>
-            <input type="email" id="email" name="email" required placeholder="your@email.com"/>
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Your phone number (optional)"/>
-          </div>
-          <div class="form-group">
-            <label for="service">Service of Interest</label>
-            <select id="service" name="service">
-              <option value="">Select a service (optional)</option>
-              <option value="healing-touch">Healing Touch</option>
-              <option value="sound-healing">Sound Healing</option>
-              <option value="crystal-healing">Crystal Healing</option>
-              <option value="labyrinth">Walking the Labyrinth</option>
-              <option value="sacred-geometry">Sacred Geometry</option>
-              <option value="not-sure">Not sure yet</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Your Message *</label>
-            <textarea id="message" name="message" required rows="6" placeholder="Share your questions, intentions, or anything you'd like Brenda to know..."></textarea>
-          </div>
-          <button type="submit" class="btn-primary full-width">Send Message ✨</button>
-        </form>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <h3>BB's Harmonic Pathways</h3>
-        <p>Healing Touch • Sound Healing • Crystal Healing</p>
-        <p>Labyrinth • Sacred Geometry</p>
-      </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="booking.html">Book a Session</a></li>
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">BB's Harmonic Pathways</a>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="booking.html" class="nav-book">Book Now</a></li>
         </ul>
-      </div>
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
-        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
-        <p>🌐 harmonicpathways.info</p>
-      </div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
-    </div>
-  </footer>
+</nav>
 
-  <script>
-    function toggleMenu() {
-      const nav = document.querySelector('.nav-links');
-      nav.classList.toggle('open');
-    }
-  </script>
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>I would love to hear from you</p>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>Whether you have questions about a service or are ready to begin your healing journey, I am here for you.</p>
+
+                <div class="contact-detail">
+                    <span class="contact-icon">📞</span>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>704-929-0453</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>BBurkMSN@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span class="contact-icon">🕐</span>
+                    <div>
+                        <strong>Response Time</strong>
+                        <p>I typically respond within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-wrapper">
+                <h2>Send a Message</h2>
+
+                <form 
+                    action="https://formspree.io/f/mkjwbrja" 
+                    method="POST">
+
+                    <input type="hidden" name="_next" value="https://bbharmonicpathways.github.io/harmonicpathways.info/thankyou.html">
+                    <input type="hidden" name="_subject" value="New message from BB's Harmonic Pathways website">
+
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service of Interest</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option value="Healing Touch">Healing Touch</option>
+                            <option value="Sound Healing">Sound Healing</option>
+                            <option value="Crystal Healing">Crystal Healing</option>
+                            <option value="Walking the Labyrinth">Walking the Labyrinth</option>
+                            <option value="Sacred Geometry">Sacred Geometry</option>
+                            <option value="General Question">General Question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" required placeholder="How can I help you on your healing journey?" rows="5"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message 🌿</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>BB's Harmonic Pathways</h3>
+                <p>Guiding you toward balance, healing, and wholeness.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="booking.html">Book a Session</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Brenda Burk MSN, HTCP</p>
+                <p>📞 704-929-0453</p>
+                <p>📧 BBurkMSN@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
