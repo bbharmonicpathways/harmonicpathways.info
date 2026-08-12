@@ -1,231 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Services | BB's Harmonic Pathways</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
   <!-- NAVIGATION -->
   <nav class="navbar">
-    <div class="nav-brand">BB's Harmonic Pathways</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html" class="active">Services</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="booking.html" class="nav-cta">Book a Session</a></li>
-    </ul>
-    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">BB's Harmonic Pathways</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="booking.html" class="nav-book">Book Now</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="page-hero-overlay"></div>
-    <div class="page-hero-content">
-      <h1>Healing Services</h1>
-      <p>Each modality offers a unique pathway to balance, harmony, and wholeness</p>
-    </div>
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1>Our Healing Services</h1>
+    <p>Each session is lovingly tailored to your unique needs</p>
   </section>
 
-  <!-- HEALING TOUCH -->
-  <section id="healing-touch" class="service-full section-padding">
-    <div class="container service-flex">
-      <div class="service-image-block">
-        <div class="service-icon-large">🤲</div>
-        <img src="assets/images/healing-touch.jpg" alt="Healing Touch" onerror="this.style.display='none'"/>
-      </div>
-      <div class="service-detail">
-        <h2>Healing Touch</h2>
-        <p class="service-tagline">A heart-centered energy therapy for body, mind, and spirit</p>
-        <p>Healing Touch is a gentle, non-invasive energy therapy that works with the human energy field to support the body's natural ability to heal. Developed by Janet Mentgen RN, Healing Touch is endorsed by the American Holistic Nurses Association and is used in hospitals, clinics, and private practices worldwide.</p>
-        <p>During a Healing Touch session, Brenda uses light touch or near-body hand movements to clear, balance, and energize the biofield — the energy field that surrounds and interpenetrates the physical body. This supports the free flow of energy and activates the body's innate healing response.</p>
-        <h4>Benefits may include:</h4>
-        <ul class="benefits-list">
-          <li>✦ Deep relaxation and stress reduction</li>
-          <li>✦ Relief from anxiety and emotional distress</li>
-          <li>✦ Support during illness, surgery, or medical treatment</li>
-          <li>✦ Enhanced sense of well-being and inner peace</li>
-          <li>✦ Accelerated recovery and healing</li>
-          <li>✦ Spiritual connection and clarity</li>
-        </ul>
-        <div class="service-booking">
-          <p><strong>Session Length:</strong> 60–90 minutes</p>
-          <a href="booking.html" class="btn-primary">Book This Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOUND HEALING -->
-  <section id="sound-healing" class="service-full section-padding bg-light">
-    <div class="container service-flex reverse">
-      <div class="service-image-block">
-        <div class="service-icon-large">🎵</div>
-        <img src="assets/images/sound-healing.jpg" alt="Sound Healing" onerror="this.style.display='none'"/>
-      </div>
-      <div class="service-detail">
-        <h2>Sound Healing</h2>
-        <p class="service-tagline">Restoring vibrational harmony through sacred sound</p>
-        <p>Sound has been used as a healing tool for thousands of years across cultures worldwide. Sound Healing uses the vibrational frequencies of sacred instruments — including Tibetan and crystal singing bowls, tuning forks, chimes, and drums — to restore harmony within the body's energy systems.</p>
-        <p>Every cell in the body vibrates at a specific frequency. When stress, illness, or emotional imbalance disrupts these frequencies, sound can gently guide the body back into resonance. During a session, you will be bathed in healing tones that promote deep relaxation, release, and renewal.</p>
-        <h4>Benefits may include:</h4>
-        <ul class="benefits-list">
-          <li>✦ Deep meditative states and profound relaxation</li>
-          <li>✦ Release of emotional blockages and trauma</li>
-          <li>✦ Reduced anxiety, depression, and mental fatigue</li>
-          <li>✦ Improved sleep quality</li>
-          <li>✦ Enhanced creativity and mental clarity</li>
-          <li>✦ Heightened spiritual awareness</li>
-        </ul>
-        <div class="service-booking">
-          <p><strong>Session Length:</strong> 60 minutes</p>
-          <a href="booking.html" class="btn-primary">Book This Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CRYSTAL HEALING -->
-  <section id="crystal-healing" class="service-full section-padding">
-    <div class="container service-flex">
-      <div class="service-image-block">
-        <div class="service-icon-large">💎</div>
-        <img src="assets/images/crystal-healing.jpg" alt="Crystal Healing" onerror="this.style.display='none'"/>
-      </div>
-      <div class="service-detail">
-        <h2>Crystal Healing</h2>
-        <p class="service-tagline">Harnessing Earth's natural energies for alignment and balance</p>
-        <p>Crystals and gemstones carry unique energetic signatures shaped by millions of years of geological formation. Crystal Healing uses these natural energies to support the clearing of energetic blockages, the balancing of the chakras, and the restoration of harmony within the body's energy field.</p>
-        <p>During a Crystal Healing session, carefully selected crystals are placed on and around the body at specific energy centers. The gentle, sustained resonance of each stone works in harmony with your body's own energy to promote healing, grounding, and alignment.</p>
-        <h4>Benefits may include:</h4>
-        <ul class="benefits-list">
-          <li>✦ Chakra balancing and energetic alignment</li>
-          <li>✦ Emotional clearing and release</li>
-          <li>✦ Grounding and stability</li>
-          <li>✦ Enhanced intuition and spiritual awareness</li>
-          <li>✦ Relief from physical tension and discomfort</li>
-          <li>✦ Deep sense of peace and restoration</li>
-        </ul>
-        <div class="service-booking">
-          <p><strong>Session Length:</strong> 60–75 minutes</p>
-          <a href="booking.html" class="btn-primary">Book This Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- LABYRINTH -->
-  <section id="labyrinth" class="service-full section-padding bg-light">
-    <div class="container service-flex reverse">
-      <div class="service-image-block">
-        <div class="service-icon-large">🌀</div>
-        <img src="assets/images/labyrinth.jpg" alt="Walking the Labyrinth" onerror="this.style.display='none'"/>
-      </div>
-      <div class="service-detail">
-        <h2>Walking the Labyrinth</h2>
-        <p class="service-tagline">An ancient walking meditation for clarity, reflection, and renewal</p>
-        <p>The labyrinth is one of humanity's oldest sacred symbols — a single winding path that leads to the center and back out again. Unlike a maze, the labyrinth has no dead ends or tricks. It is a journey of trust, surrender, and return.</p>
-        <p>Walking the labyrinth is a powerful moving meditation that engages both hemispheres of the brain, quiets mental chatter, and opens the heart to deeper wisdom. Brenda guides individuals and small groups through this transformative practice, offering intention-setting, reflection, and integration support.</p>
-        <h4>Benefits may include:</h4>
-        <ul class="benefits-list">
-          <li>✦ Mental clarity and relief from overthinking</li>
-          <li>✦ Emotional processing and release</li>
-          <li>✦ Spiritual insight and guidance</li>
-          <li>✦ Deepened sense of presence and mindfulness</li>
-          <li>✦ Grief support and life transition processing</li>
-          <li>✦ Connection to inner wisdom and intuition</li>
-        </ul>
-        <div class="service-booking">
-          <p><strong>Session Length:</strong> 45–60 minutes</p>
-          <a href="booking.html" class="btn-primary">Book This Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SACRED GEOMETRY -->
-  <section id="sacred-geometry" class="service-full section-padding">
-    <div class="container service-flex">
-      <div class="service-image-block">
-        <div class="service-icon-large">✨</div>
-        <img src="assets/images/sacred-geometry.jpg" alt="Sacred Geometry" onerror="this.style.display='none'"/>
-      </div>
-      <div class="service-detail">
-        <h2>Sacred Geometry</h2>
-        <p class="service-tagline">Aligning with the universal patterns of creation and healing</p>
-        <p>Sacred Geometry is the study of the universal mathematical patterns and proportions that underlie all of creation — from the spiral of a nautilus shell to the structure of DNA. These patterns are found in ancient temples, natural forms, and the fabric of the cosmos itself.</p>
-        <p>In healing work, Sacred Geometry is used to create energetic grids, amplify intentions, and align the body and space with harmonious universal frequencies. Brenda incorporates Sacred Geometry principles into her sessions and offers dedicated workshops and consultations for those called to explore this profound wisdom tradition.</p>
-        <h4>Benefits may include:</h4>
-        <ul class="benefits-list">
-          <li>✦ Deeper connection to universal harmony</li>
-          <li>✦ Amplified intentions and manifestation work</li>
-          <li>✦ Energetic space clearing and grid creation</li>
-          <li>✦ Enhanced meditation and spiritual practice</li>
-          <li>✦ Insight into life patterns and soul purpose</li>
-          <li>✦ Integration of mind, body, and spirit</li>
-        </ul>
-        <div class="service-booking">
-          <p><strong>Session Length:</strong> 60–90 minutes</p>
-          <a href="booking.html" class="btn-primary">Book This Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-section section-padding bg-sage">
+  <!-- SERVICES DETAIL -->
+  <section class="services-detail">
     <div class="container">
-      <h2>Not Sure Which Service is Right for You?</h2>
-      <p>Reach out and Brenda will help you find the perfect pathway for your healing journey.</p>
-      <a href="contact.html" class="btn-primary">Ask a Question</a>
-      <a href="booking.html" class="btn-secondary">Book a Session</a>
+
+      <!-- HEALING TOUCH -->
+      <div class="service-detail-card" id="healing-touch">
+        <div class="service-detail-image">
+          <img src="assets/images/healing-touch.jpg" alt="Healing Touch"/>
+        </div>
+        <div class="service-detail-text">
+          <h2>Healing Touch</h2>
+          <p>Healing Touch is a gentle, heart-centered energy therapy that uses light touch to support and facilitate physical, emotional, mental, and spiritual health. As a Healing Touch Certified Practitioner (HTCP), Brenda works with your body's energy field to clear blockages and restore natural flow.</p>
+          <p>This evidence-informed practice is used in hospitals, clinics, and private settings worldwide. Sessions are deeply relaxing and may help with stress reduction, pain management, anxiety, and recovery from illness or surgery.</p>
+          <ul class="service-benefits">
+            <li>✨ Reduces stress and anxiety</li>
+            <li>✨ Supports pain management</li>
+            <li>✨ Enhances immune function</li>
+            <li>✨ Promotes deep relaxation</li>
+            <li>✨ Supports emotional healing</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+          <a href="booking.html" class="btn-primary">Book This Service</a>
+        </div>
+      </div>
+
+      <!-- SOUND HEALING -->
+      <div class="service-detail-card reverse" id="sound-healing">
+        <div class="service-detail-image">
+          <img src="assets/images/sound-healing.jpg" alt="Sound Healing"/>
+        </div>
+        <div class="service-detail-text">
+          <h2>Sound Healing</h2>
+          <p>Sound Healing uses vibrational frequencies — including singing bowls, tuning forks, chimes, and voice — to restore harmony and balance within the body. Sound has been used for thousands of years across cultures as a powerful healing tool.</p>
+          <p>During a session, you will be bathed in healing sounds that help shift brainwave states, release tension, and promote deep cellular healing. Many clients report feeling profoundly peaceful and renewed after just one session.</p>
+          <ul class="service-benefits">
+            <li>✨ Reduces stress and tension</li>
+            <li>✨ Improves sleep quality</li>
+            <li>✨ Clears energetic blockages</li>
+            <li>✨ Elevates mood and clarity</li>
+            <li>✨ Deepens meditation</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+          <a href="booking.html" class="btn-primary">Book This Service</a>
+        </div>
+      </div>
+
+      <!-- CRYSTAL HEALING -->
+      <div class="service-detail-card" id="crystal-healing">
+        <div class="service-detail-image">
+          <img src="assets/images/crystal-healing.jpg" alt="Crystal Healing"/>
+        </div>
+        <div class="service-detail-text">
+          <h2>Crystal Healing</h2>
+          <p>Crystal Healing works with the natural vibrational energy of crystals and gemstones to support healing and balance. Each crystal carries unique properties that can help clear, activate, and harmonize the body's energy centers (chakras).</p>
+          <p>Brenda carefully selects and places crystals on and around the body to amplify healing intentions, release stagnant energy, and restore energetic flow. Sessions are gentle, deeply relaxing, and often profoundly transformative.</p>
+          <ul class="service-benefits">
+            <li>✨ Balances chakra energy</li>
+            <li>✨ Releases emotional blockages</li>
+            <li>✨ Amplifies healing intentions</li>
+            <li>✨ Promotes grounding and calm</li>
+            <li>✨ Supports spiritual growth</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+          <a href="booking.html" class="btn-primary">Book This Service</a>
+        </div>
+      </div>
+
+      <!-- LABYRINTH -->
+      <div class="service-detail-card reverse" id="labyrinth">
+        <div class="service-detail-image">
+          <img src="assets/images/labyrinth.jpg" alt="Walking the Labyrinth"/>
+        </div>
+        <div class="service-detail-text">
+          <h2>Walking the Labyrinth</h2>
+          <p>Walking the Labyrinth is an ancient meditative practice used across cultures for centuries as a tool for prayer, reflection, and healing. Unlike a maze, a labyrinth has one path that winds gently to the center and back out — a metaphor for life's journey.</p>
+          <p>Brenda guides you through this sacred walking meditation, helping you set intentions, quiet the mind, and open to deeper wisdom. The labyrinth walk can be a powerful tool for decision-making, grief processing, stress relief, and spiritual connection.</p>
+          <ul class="service-benefits">
+            <li>✨ Quiets the mind</li>
+            <li>✨ Supports grief and transition</li>
+            <li>✨ Enhances spiritual connection</li>
+            <li>✨ Promotes clarity and insight</li>
+            <li>✨ Deeply meditative experience</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+          <a href="booking.html" class="btn-primary">Book This Service</a>
+        </div>
+      </div>
+
+      <!-- SACRED GEOMETRY -->
+      <div class="service-detail-card" id="sacred-geometry">
+        <div class="service-detail-image">
+          <img src="assets/images/sacred-geometry.jpg" alt="Sacred Geometry"/>
+        </div>
+        <div class="service-detail-text">
+          <h2>Sacred Geometry</h2>
+          <p>Sacred Geometry explores the universal patterns and shapes found throughout nature, art, architecture, and the cosmos. These geometric forms — including the Flower of Life, Metatron's Cube, and the Golden Ratio — are believed to carry profound healing and spiritual significance.</p>
+          <p>In sessions with Brenda, you will learn to work with sacred geometric patterns to align your energy, deepen meditation, and connect with universal healing frequencies. This practice bridges science, spirituality, and art in a beautifully holistic way.</p>
+          <ul class="service-benefits">
+            <li>✨ Aligns energy with universal patterns</li>
+            <li>✨ Deepens meditation practice</li>
+            <li>✨ Enhances spiritual awareness</li>
+            <li>✨ Promotes harmony and balance</li>
+            <li>✨ Bridges science and spirituality</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+          <a href="booking.html" class="btn-primary">Book This Service</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <h3>BB's Harmonic Pathways</h3>
-        <p>Healing Touch • Sound Healing • Crystal Healing</p>
-        <p>Labyrinth • Sacred Geometry</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>BB's Harmonic Pathways</h3>
+          <p>Healing Touch · Sound Healing · Crystal Healing</p>
+          <p>Sacred Geometry · Labyrinth Walking</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📍 Mooresville, NC | Virtual</p>
+          <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
+          <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
+        </div>
       </div>
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="testimonials.html">Testimonials</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="booking.html">Book a Session</a></li>
-        </ul>
+      <div class="footer-bottom">
+        <p>&copy; 2025 BB's Harmonic Pathways · Brenda Burk MSN, HTCP · All Rights Reserved</p>
       </div>
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p>📞 <a href="tel:7049290453">704-929-0453</a></p>
-        <p>✉️ <a href="mailto:BBurkMSN@gmail.com">BBurkMSN@gmail.com</a></p>
-        <p>🌐 harmonicpathways.info</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 BB's Harmonic Pathways | Brenda Burk MSN, HTCP | All Rights Reserved</p>
     </div>
   </footer>
-
-  <script>
-    function toggleMenu() {
-      const nav = document.querySelector('.nav-links');
-      nav.classList.toggle('open');
-    }
-  </script>
 
 </body>
 </html>
